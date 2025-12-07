@@ -1,0 +1,16 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1765071755
+::res://scenes/::1765071714
+DialogueUI.tscn::PackedScene::-1::1765071714::0::1::::<><><>0<>0<><>::
+EcosystemRoom1.tscn::PackedScene::-1::1765071714::0::1::::<><><>0<>0<><>::res://scenes/Player.tscn<>res://scenes/NPC.tscn<>res://scenes/Hotspot.tscn<>res://scenes/DialogueUI.tscn
+Hotspot.tscn::PackedScene::-1::1765071714::0::1::::<><><>0<>0<><>::
+NPC.tscn::PackedScene::-1::1765071714::0::1::::<><><>0<>0<><>::
+Player.tscn::PackedScene::-1::1765071714::0::1::::<><><>0<>0<><>::
+::res://scripts/::1765071714
+dialogue_ui.gd::GDScript::661346954571710075::1765071714::0::1::::<>Control<><>0<>0<><>::
+EcosystemRoom1.gd::GDScript::3505555703379049024::1765071714::0::1::::<>Node2D<><>0<>0<><>::
+hotspot.gd::GDScript::8748874579437278367::1765071714::0::1::::<>Interactable<><>0<>0<><>::
+interactable.gd::GDScript::4310911440411361676::1765071714::0::1::::Interactable<>Area2D<><>0<>0<><>::
+npc.gd::GDScript::6370444661894883299::1765071714::0::1::::<>Interactable<><>0<>0<><>::
+player.gd::GDScript::1592854826339367485::1765071714::0::1::::<>CharacterBody2D<><>0<>0<><>::
+story_state.gd::GDScript::3500656236201060025::1765071714::0::1::::<>Node<><>0<>0<><>::

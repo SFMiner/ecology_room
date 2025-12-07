@@ -1,0 +1,49 @@
+[gd_scene load_steps=6 format=3 uid="uid://chllf0p1fg2cp"]
+
+[ext_resource type="Script" uid="uid://bp7d8w0o32aiy" path="res://scripts/EcosystemRoom1.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://bskxyc6vnrgv4" path="res://scenes/Player.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://6gteqoa0r6wa" path="res://scenes/NPC.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://dngndd6ptq1h8" path="res://scenes/Hotspot.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/DialogueUI.tscn" id="5"]
+
+[node name="EcosystemRoom1" type="Node2D"]
+script = ExtResource("1")
+
+[node name="Environment" type="Node2D" parent="."]
+
+[node name="Player" parent="." instance=ExtResource("2")]
+
+[node name="NPCs" type="Node2D" parent="."]
+
+[node name="Raven" parent="NPCs" instance=ExtResource("3")]
+position = Vector2(110, 248)
+npc_name = "Raven"
+dialogue_id = "raven_intro"
+
+[node name="Elk" parent="NPCs" instance=ExtResource("3")]
+position = Vector2(248, 158)
+npc_name = "Elk"
+dialogue_id = "elk_intro"
+
+[node name="WillowSpirit" parent="NPCs" instance=ExtResource("3")]
+position = Vector2(355, 60)
+npc_name = "Willow Spirit"
+dialogue_id = "willow_intro"
+
+[node name="Hotspots" type="Node2D" parent="."]
+
+[node name="ReintroduceWolves" parent="Hotspots" instance=ExtResource("4")]
+position = Vector2(674, 77)
+hotspot_id = "reintroduce_wolves"
+science_action = "reintroduce_wolves"
+
+[node name="ObserveChanges" parent="Hotspots" instance=ExtResource("4")]
+position = Vector2(306, 301)
+hotspot_id = "observe_changes"
+science_action = "observe_changes"
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="DialogueUI" parent="CanvasLayer" instance=ExtResource("5")]
+layout_mode = 3
+anchors_preset = 0
