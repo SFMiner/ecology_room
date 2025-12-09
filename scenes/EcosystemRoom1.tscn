@@ -13,8 +13,8 @@
 [ext_resource type="Script" uid="uid://s7h0w4r7e6xo" path="res://addons/touch_screen_joystick/touch_screen_joystick.gd" id="11_qmhki"]
 [ext_resource type="Texture2D" uid="uid://1ch4oysk7e5v" path="res://assets/cascadia title.png" id="12_nabnr"]
 [ext_resource type="FontFile" uid="uid://dkqph1emsmsvg" path="res://assets/OdinBold-MRzP.otf" id="13_fouqg"]
-[ext_resource type="AudioStream" uid="uid://bgve2f638iv5x" path="res://assets/river.wav" id="14_0fpqi"]
-[ext_resource type="AudioStream" uid="uid://b4ilw6ett8dp5" path="res://assets/raven_background.wav" id="15_befal"]
+[ext_resource type="AudioStream" uid="uid://cb2dvcidfxpmd" path="res://assets/river.ogg" id="14_0fpqi"]
+[ext_resource type="AudioStream" uid="uid://d1mh0pwwp4rr7" path="res://assets/raven_background.ogg" id="15_befal"]
 
 [sub_resource type="Animation" id="Animation_fouqg"]
 length = 0.001
